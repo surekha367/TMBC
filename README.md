@@ -25,7 +25,7 @@ A FastAPI application that integrates with Meta's WhatsApp Business Manager API 
 ## Project Structure
 
 ```
-whatsapp_fastapi/
+TMBC/
 ├── app/
 │   ├── __init__.py
 │   ├── main.py              # Application entry point
@@ -65,8 +65,7 @@ whatsapp_fastapi/
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/yourusername/tmbc-whatsapp-api.git
-   cd tmbc-whatsapp-api
+   git clone https://github.com/surekha367/TMBC.git
    ```
 
 2. Create a virtual environment:
@@ -99,26 +98,6 @@ whatsapp_fastapi/
 7. Start the application:
    ```bash
    uvicorn app.main:app --reload
-   ```
-
-#### Option 2: Using Docker
-
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/surekha367/TMBC.git
-   cd tmbc-whatsapp-api
-   ```
-
-2. Create a `.env` file based on `.env.example`:
-   ```bash
-   cp .env.example .env
-   ```
-
-3. Edit the `.env` file and add your WhatsApp Business API credentials.
-
-4. Build and start the containers:
-   ```bash
-   docker-compose up --build
    ```
 
 ### Running Tests
